@@ -53,19 +53,20 @@ sum_of_digits = 0
 while number > 0 :
     remainder = number % 10
     sum_of_digits += remainder
-    number /= 10   
+    number /= 10  
+print(f"Sum of digits: {sum_of_digits}")
 
 # Question 6: Check if 97 is a prime number
 print("\nQuestion 6: Check if 97 is a prime number")
 # Your code here
 n = 97
+n = 97
 for i in range(2,n):
     if n % i == 0:
-        print("97 is not a prime number.")
-        break
-    else:
-        print("97 is a prime number.")
-
+     print("97 is not a prime number.")
+     break
+else:
+    print("97 is a prime number.")
 
 # Question 7: Find the factorial of 8
 print("\nQuestion 7: Find the factorial of 8")
@@ -89,7 +90,6 @@ print("\nQuestion 9: Find the greatest common divisor (GCD) of 48 and 36")
 import math
 math.gcd(48, 36)  
 
-print("-" * 50)
 
 
 # Question 10: Calculate the sum of first 20 odd numbers
@@ -100,3 +100,4 @@ for i in range(1, 40, 2):
     sum_of_odds += i    
 
 print(f"Sum of first 20 odd numbers: {sum_of_odds}")
+
