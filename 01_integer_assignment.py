@@ -17,12 +17,6 @@ print("-" * 50)
 
 # Question 1: Calculate the product of first 10 natural numbers
 print("Question 1: Calculate the product of first 10 natural numbers")
-natural_numbers = [1,2,3,4,5,6,7,8,9,10]
-product = 1
-for number in natural_numbers:
-    product *= number   
-print(f"Product: {product}")
-print("-" * 50)
 product = 1
 for i in range(1, 11):
     product *= i
@@ -104,4 +98,5 @@ print("\nQuestion 10: Calculate the sum of first 20 odd numbers")
 sum_of_odds = 0
 for i in range(1, 40, 2):
     sum_of_odds += i    
+
 print(f"Sum of first 20 odd numbers: {sum_of_odds}")
