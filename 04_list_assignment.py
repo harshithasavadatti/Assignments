@@ -187,18 +187,6 @@ print("\nQuestion 20: Create a list of mixed data types: [1, 'hello', 3.14, True
 list1 = [1, "hello", 3.14, True, [1, 2, 3]]
 print(f"List of Mixed data types: {list1}")
 
-# list1 = [1, "hello", 3.14, True, [1, 2, 3]]
-# flatten = []
-
-# for item in list1:
-#     if isinstance(item, list):  # now refers to actual built-in type
-#         for subitem in item:
-#             flatten.append(subitem)
-#     else:
-#         flatten.append(item)
-
-# print(f"List of Mixed data types: {flatten}")
-
 
 # Question 21: Find the length of each string in ["apple", "banana", "cherry", "date"]
 print("\nQuestion 21: Find the length of each string in ['apple', 'banana', 'cherry', 'date']")
@@ -438,3 +426,4 @@ list2 = []
 for it in list1:
     list2.append(list(it))
 print(f"Extracted elements from iterators: {list2}")
+
